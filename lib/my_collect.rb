@@ -1,16 +1,6 @@
 require 'pry'
 
 #binding.pry
-def my_collect(collection)
-  collection=[]
-  collection.find do |lang|
-    lang.upcase
-  end
-end
-  
-  
-#Understanding the scope within a method of modifying and returning objects is crucial
-
 def my_collect(array)
   i = 0
   collect = []
@@ -20,3 +10,4 @@ def my_collect(array)
   end
   collect
 end
+  
